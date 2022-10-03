@@ -1,0 +1,21 @@
+services:
+- type: web
+  name: oregon-0
+  repo: https://github.com/hieurender/express-hello-world
+  region: oregon
+  buildCommand: ./build.sh
+- type: web
+  name: ohio-1
+  repo: https://github.com/hieurender/express-hello-world
+  region: ohio
+  buildCommand: ./build.sh
+- type: web
+  name: singapore-1
+  repo: https://github.com/hieurender/express-hello-world
+  region: singapore
+  buildCommand: ./build.sh
+- type: web
+  name: frankfurt-1
+  repo: https://github.com/hieurender/express-hello-world
+  region: frankfurt
+  buildCommand: ./build.sh
